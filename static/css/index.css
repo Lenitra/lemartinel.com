@@ -181,6 +181,10 @@ header nav ol li a:hover {
     grid-auto-flow: column;
 }
 
+#skillsgrid h4{
+    color: var(--text-color);
+}
+
 .jauge-background {
     width: 100%;
     background-color: #4444448e;
@@ -198,5 +202,32 @@ header nav ol li a:hover {
 
 
 
+
+/* #endregion */
+
+
+
+/* #region projects */
+
+#projects section {
+    margin-left: 10vw;
+}
+
+#projects section h4 {
+    color: aqua;
+}
+
+#projects section .work-details{
+    background-color: var(--text-color);
+    color: whitesmoke;
+    border-radius: 5%;
+    width: 33vw;
+    margin-right: -15vw;
+}
+
+#projects section img {
+ width: 33vw;
+ float: left;
+}
 
 /* #endregion */
