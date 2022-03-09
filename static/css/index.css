@@ -171,3 +171,32 @@ header nav ol li a:hover {
 }
 
 /* #endregion */
+
+/* #region Skills*/
+#skillsgrid {
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 38vw 38vw;    
+    column-gap: 4vw;
+    grid-auto-flow: column;
+}
+
+.jauge-background {
+    width: 100%;
+    background-color: #4444448e;
+    margin-top: 2vh;
+}
+
+.jauge-bar {
+    margin-top: -18px;	
+    height: 18px;
+    background-color: aqua;
+    z-index: 2;
+}
+
+
+
+
+
+
+/* #endregion */
